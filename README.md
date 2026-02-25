@@ -115,17 +115,6 @@ PortPilot/
     └── ui/             # Main window, dialogs, widgets
 ```
 
----
-
-## Creating a Release
-
-1. Push your code to GitHub
-2. Replace `Meir553` in this README with your GitHub username
-3. Create and push a tag: `git tag v1.0.0 && git push origin v1.0.0`
-4. The [Release workflow](.github/workflows/release.yml) will build the exe and attach it to the new release
-
----
-
 ## License
 
 MIT — see [LICENSE](LICENSE).
