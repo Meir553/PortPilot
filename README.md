@@ -12,7 +12,7 @@
 
 **Pre-built executable** (no Python required):
 
-- **[Releases](https://github.com/mgot6/PortPilot/releases)** — Download `PortPilot.exe` or `PortPilot-Setup-1.0.0.exe` (installer)
+- **[Releases](https://github.com/Meir553/PortPilot/releases)** — Download `PortPilot.exe` or `PortPilot-Setup-1.0.0.exe` (installer)
 
 ---
 
@@ -41,7 +41,7 @@
 
 ```powershell
 # Clone and enter project
-git clone https://github.com/mgot6/PortPilot.git
+git clone https://github.com/Meir553/PortPilot.git
 cd PortPilot
 
 # Create virtual environment
@@ -120,7 +120,7 @@ PortPilot/
 ## Creating a Release
 
 1. Push your code to GitHub
-2. Replace `mgot6` in this README with your GitHub username
+2. Replace `Meir553` in this README with your GitHub username
 3. Create and push a tag: `git tag v1.0.0 && git push origin v1.0.0`
 4. The [Release workflow](.github/workflows/release.yml) will build the exe and attach it to the new release
 
